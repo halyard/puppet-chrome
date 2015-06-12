@@ -8,7 +8,7 @@
 #   Explanation of what this parameter affects and what it defaults to.
 #
 class chrome (
-  $package = 'chrome-dev-halyard'
+  $package = 'google-chrome-dev-halyard'
 ) {
   package { $package:
     provider => 'brewcask'
