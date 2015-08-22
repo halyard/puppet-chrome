@@ -11,6 +11,7 @@ class chrome (
   $package = 'google-chrome-dev-halyard'
 ) {
   package { $package:
-    provider => 'brewcask'
+    provider => 'brewcask',
+    require  => Homebrew::Tap['halyard/casks']
   }
 }
