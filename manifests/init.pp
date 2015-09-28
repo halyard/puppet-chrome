@@ -1,11 +1,11 @@
 # == Class: chrome
 #
-# Full description of class chrome here.
+# Install Google Chrome
 #
 # === Parameters
 #
-# [*sample_parameter*]
-#   Explanation of what this parameter affects and what it defaults to.
+# [*package*]
+#   Package name to install from homebrew
 #
 class chrome (
   $package = 'google-chrome-dev-halyard'
